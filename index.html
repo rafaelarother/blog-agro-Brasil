@@ -1,1 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="AgroBrasil - Notícias, informações e conteúdos sobre agricultura e pecuária brasileira.">
+    <meta name="keywords" content="agro, agricultura, pecuária, agronegócio, Brasil, fazenda, rural">
+    <meta name="author" content="AgroBrasil">
+
+    <title>AgroBrasil | Agricultura & Pecuária</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header">
+
+        <div class="container header-content">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🌱</span>
+                <span>Agro<span>Brasil</span></span>
+            </a>
+
+            <nav class="navigation">
+                <a href="#inicio">Início</a>
+                <a href="#agricultura">Agricultura</a>
+                <a href="#pecuaria">Pecuária</a>
+                <a href="#tecnologia">Tecnologia</a>
+                <a href="#sobre">Sobre</a>
+            </nav>
+
+            <button class="menu-button" id="menuButton" aria-label="Abrir menu">
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- HERO -->
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <span class="hero-tag">🇧🇷 O campo que move o Brasil</span>
+
+                    <h1>
+                        Informação que
+                        <span>fortalece o Agro.</span>
+                    </h1>
+
+                    <p>
+                        Notícias, tendências, tecnologia e conhecimento
+                        sobre agricultura e pecuária brasileira.
+                    </p>
+
+                    <a href="#ultimos-posts" class="hero-button">
+                        Explorar conteúdos →
+                    </a>
+
+                </div>
+
+                <div class="hero-card">
+
+                    <div class="hero-card-icon">🌾</div>
+
+                    <h3>
+                        AgroBrasil
+                    </h3>
+
+                    <p>
+                        Conectando você ao campo, à inovação e às
+                        oportunidades do agronegócio.
+                    </p>
+
+                    <div class="hero-stats">
+
+                        <div>
+                            <strong>Agro</strong>
+                            <span>Agricultura</span>
+                        </div>
+
+                        <div>
+                            <strong>🐂</strong>
+                            <span>Pecuária</span>
+                        </div>
+
+                        <div>
+                            <strong>🚜</strong>
+                            <span>Tecnologia</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CATEGORIAS -->
+        <section class="categories">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>CONTEÚDO</span>
+
+                    <h2>
+                        Conheça o mundo do Agro
+                    </h2>
+
+                    <p>
+                        Conteúdos para quem vive, trabalha ou acompanha
+                        o agronegócio brasileiro.
+                    </p>
+
+                </div>
+
+                <div class="category-grid">
+
+                    <a href="#agricultura" class="category-card agriculture">
+
+                        <div class="category-icon">
+                            🌱
+                        </div>
+
+                        <h3>Agricultura</h3>
+
+                        <p>
+                            Produção agrícola, safras, culturas,
+                            mercado e novidades do campo.
+                        </p>
+
+                        <span>Ver conteúdos →</span>
+
+                    </a>
+
+
+                    <a href="#pecuaria" class="category-card livestock">
+
+                        <div class="category-icon">
+                            🐂
+                        </div>
+
+                        <h3>Pecuária</h3>
+
+                        <p>
+                            Gado de corte, leite, manejo, genética
+                            e produção animal.
+                        </p>
+
+                        <span>Ver conteúdos →</span>
+
+                    </a>
+
+
+                    <a href="#tecnologia" class="category-card technology">
+
+                        <div class="category-icon">
+                            🚜
+                        </div>
+
+                        <h3>Tecnologia</h3>
+
+                        <p>
+                            Inovação, máquinas, agricultura digital
+                            e novas tecnologias.
+                        </p>
+
+                        <span>Ver conteúdos →</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- POSTS -->
+        <section class="posts-section" id="ultimos-posts">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <span class="small-title">BLOG AGROBRASIL</span>
+
+                        <h2>
+                            Últimos conteúdos
+                        </h2>
+                    </div>
+
+                    <div class="post-filters">
+
+                        <button class="filter active" data-category="Todos">
+                            Todos
+                        </button>
+
+                        <button class="filter" data-category="Agricultura">
+                            Agricultura
+                        </button>
+
+                        <button class="filter" data-category="Pecuária">
+                            Pecuária
+                        </button>
+
+                        <button class="filter" data-category="Tecnologia">
+                            Tecnologia
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div id="postsContainer" class="posts-grid">
+                    <!-- Os posts serão carregados pelo posts.js -->
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- DESTAQUE -->
+        <section class="highlight">
+
+            <div class="container highlight-content">
+
+                <div>
+
+                    <span class="small-title">
+                        CONHECIMENTO
+                    </span>
+
+                    <h2>
+                        O futuro do campo começa com informação.
+                    </h2>
+
+                    <p>
+                        Acompanhe as principais transformações do
+                        agronegócio e descubra como tecnologia,
+                        sustentabilidade e produtividade estão
+                        mudando o campo brasileiro.
+                    </p>
+
+                </div>
+
+                <div class="highlight-icon">
+                    🌾
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE -->
+        <section class="about" id="sobre">
+
+            <div class="container about-content">
+
+                <div class="about-icon">
+                    🇧🇷
+                </div>
+
+                <div>
+
+                    <span class="small-title">
+                        SOBRE O AGROBRASIL
+                    </span>
+
+                    <h2>
+                        Informação para quem acredita no campo.
+                    </h2>
+
+                    <p>
+                        O AgroBrasil é um espaço dedicado à divulgação
+                        de informações, tendências e conhecimentos
+                        relacionados à agricultura e à pecuária.
+                    </p>
+
+                    <p>
+                        Nosso objetivo é aproximar o público das
+                        transformações que acontecem no campo brasileiro.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">🌱</span>
+                    <span>Agro<span>Brasil</span></span>
+                </a>
+
+                <p>
+                    Informação, conhecimento e inovação para
+                    o agronegócio brasileiro.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>Navegação</h4>
+
+                <a href="#inicio">Início</a>
+                <a href="#agricultura">Agricultura</a>
+                <a href="#pecuaria">Pecuária</a>
+                <a href="#tecnologia">Tecnologia</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>AgroBrasil</h4>
+
+                <a href="#sobre">Sobre nós</a>
+                <a href="#ultimos-posts">Artigos</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © <span id="currentYear"></span> AgroBrasil.
+                Todos os direitos reservados.
+            </p>
+
+            <p>
+                Feito com 🌱 para o Agro brasileiro.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="posts.js"></script>
+
+</body>
+</html>
 
