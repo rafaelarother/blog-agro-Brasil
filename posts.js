@@ -289,4 +289,38 @@ if (currentYear) {
 ========================================= */
 
 renderPosts();
+    {
+        id: 7,
+
+        title: "Agricultura de precisão aumenta a eficiência no campo",
+
+        category: "Tecnologia",
+
+        date: "26/08/2026",
+
+        author: "Equipe AgroBrasil",
+
+        emoji: "🛰️",
+
+        excerpt:
+            "O uso de sensores, GPS, drones e análise de dados permite que produtores tomem decisões mais precisas e aproveitem melhor os recursos da propriedade."
+    },
+
+
+    {
+        id: 8,
+
+        title: "Sustentabilidade ganha espaço nas propriedades brasileiras",
+
+        category: "Agricultura",
+
+        date: "24/08/2026",
+
+        author: "Equipe AgroBrasil",
+
+        emoji: "🌱",
+
+        excerpt:
+            "Práticas sustentáveis ajudam produtores a preservar o solo, economizar recursos e construir uma produção agrícola mais eficiente para o futuro."
+    }
 
