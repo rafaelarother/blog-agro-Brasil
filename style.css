@@ -1083,4 +1083,33 @@ button {
         gap: 8px;
     }
 }
+/* =========================================
+   POSTS
+========================================= */
+
+.posts-section {
+    background: #eef2ea;
+}
+
+.posts-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    border: 1px solid #183C63;
+
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+
+    flex: 1 1 25%;
+}
 
